@@ -41,7 +41,7 @@ function App() {
   };
 
   const handleSubmit = () => {
-    if (validateFields()) {
+    if (validateFields() && window.confirm("Do you want to submit the data?")) {
       console.log("Submitted Data: ", listedData);
     }
   };
