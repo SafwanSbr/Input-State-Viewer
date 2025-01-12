@@ -5,7 +5,7 @@ A simple web to add and check multiple input fields.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SafwanSbr/Input-State-Viewer
    ```
 2. Navigate to the project directory:
    ```bash
