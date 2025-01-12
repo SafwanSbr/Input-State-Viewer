@@ -21,7 +21,6 @@ function StateTable({ Data }: Props) {
         </thead>
         <tbody>
           {Data.map((data, index) => {
-            // Find the matching option
             const selectedOption = optionData.find(
               (option) => option.optionValue === data.optionValue
             );
